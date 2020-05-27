@@ -1,7 +1,7 @@
 #write your code here
 
 def countdown(number)
-  number == 10
+  number == 12
   while number == 0
     print "HAPPY NEW YEAR!"
   end
