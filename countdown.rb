@@ -2,11 +2,11 @@
 
 def countdown(number)
   number == 12
-  while number == 0
-    print "HAPPY NEW YEAR!"
+  while number > 0
+    print "#{number} SECOND(S)!"
   end
-  while number > 0 
-    puts "#{number} SECOND(S)!"
-    number -= 1 
+  number -= 1 
+  while number == 0 
+    print "HAPPY NEW YEAR!"
   end
 end
