@@ -10,3 +10,4 @@ def countdown(number)
     print "HAPPY NEW YEAR!"
   end
 end
+
