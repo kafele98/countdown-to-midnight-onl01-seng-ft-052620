@@ -3,7 +3,8 @@
 def countdown(number)
   number == 12
   while number > 0
-    print "#{number} SECOND(S)!"
+  sleep 1
+    puts "#{number} SECOND(S)!"
   end
   number -= 1 
   while number == 0 
